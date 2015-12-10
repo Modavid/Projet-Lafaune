@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8 sans bom" />
+		<link rel="stylesheet" href="style.css"/>
+        <title>Accueil</title>
+    </head>
+	<?php
+		try
+		{
+			$bdd = new PDO('mysql:host=localhost;dbname=lafaune;charset=utf8', 'lafaune', 'secret');
+		}
+			catch (Exception $e)
+		{
+			die('Erreur : ' . $e->getMessage());
+		}
+?>
+	<Frameset cols="195px,*" border=0 frameborder=no framespacing=0>
+		<frame src=menu.html name=menu>
+		<frame src=index1.html name=droite>
+	</frameset>
+</html>

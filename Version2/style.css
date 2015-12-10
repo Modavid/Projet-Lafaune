@@ -1,0 +1,50 @@
+html, body{
+	margin:0;
+	padding:0;
+	background:LightSlateGrey;
+ }
+
+ table{
+ border-collapse: collapse;
+ }
+ 
+ td{
+  border:3px solid black;
+ }
+img.imgacc{
+	width:60%;
+	height:60%;
+}
+
+img.photo{
+	width:500px;
+}
+
+frame.droite{
+
+}
+
+section{
+
+	margin-left: 210px;
+	margin-bottom:10px;
+	height:100%;
+	background:D5602E;
+}
+
+#page-wrap {  
+  margin: 15px auto; 
+  position: relative; 
+}
+
+#sidebar { 
+  width: 190px; 
+  position: fixed; 
+  margin-left: 0px; 
+  border: 3px solid black;
+}
+
+a:link {color: red;}
+a:visited {color: red;}
+a:hover {color: red;}
+a:active {color: red;}
